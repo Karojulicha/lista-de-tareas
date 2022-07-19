@@ -1,12 +1,12 @@
 import React from "react";
-
+import './Estilos.css';
 
 function Header ({Titulo}){
      return( 
      <div>
-         <h1>
+         <h2 className="titulo">
             <a href='#!' className="brand-logo">{Titulo}</a>
-         </h1>
+         </h2>
      </div>
 )
   

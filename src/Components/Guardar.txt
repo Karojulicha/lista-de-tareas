@@ -24,3 +24,21 @@
                 <input placeholder=" Ingresa aqui la tarea" type="checkbox">   </input>
 
             </form>
+
+            import React, { UseState, UseEffect } from "react";
+
+const Formulario = (promp) => {
+   const [InputText, SetInputText] = UseState("");
+
+   const manejartarea = (Event) => {
+    SetInputText(Event.target.velue);
+    console.log (InputText)
+   }
+ const Estado = ({ promp1, promp2 }) => {
+ 
+     Estado.defaultProps = {
+
+        promp1 : true,
+        promp2 : false,
+     }
+    
